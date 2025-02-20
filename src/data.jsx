@@ -14,10 +14,10 @@ export const works = [
         description:"Developed educational mini-games for kids, collaborated across technical and creative teams, and improved skills in code refactoring and teamwork.",
     },
     {
-        img:"src/assets/images/logoenvast.png",
-        title:"Unity Intern",
+        img:"src/assets/images/classquizlogo.png",
+        title:"Full-time Intern",
         duration:"2024 - present",
-        organization:"Envast",
+        organization:"Classquiz",
         description:"Working on ClassQuiz, a successful educational game, gaining expertise in scalable game architecture, enhanced code structures, and Unity navigation optimization.",
     }
 
@@ -116,6 +116,12 @@ export const projects = [
         videoSrc: 'src/assets/videos/aimlab.mp4',
         title: 'Aim Lab',
         description: 'That project was the first on I started from scratch without following any tutorials'
+
+    },
+    {
+        videoSrc: 'src/assets/videos/bubblegame.mp4',
+        title: 'Bubble Heads',
+        description: 'This is the game I developed from scratch in just 24 hours for the Global Game Jam 2025, hosted at EPI Digital School Sousse, and won 2nd place in the competition'
 
     }
 

@@ -6,10 +6,12 @@ const HeroSection = () => {
         <div className="w-[80%] max-w-[500px] mx-auto text-center">
           
           <div className="w-40 bg-white rounded-full p-2 mx-auto">
-            <img src="src/assets/images/kais.jpg" alt="Kais" className="w-36 h-36 rounded-full mx-auto" />
+            <img src="src/assets/images/personne.jpg" alt="Kais" className="w-36 h-36 rounded-full mx-auto" />
           </div>
           
-          <button className="text-2xl m-2">Khalifa Kais</button>
+          <p className="text-2xl m-2">Khalifa Kais</p>
+          <p className="text-xl m-2">Currently working as a full-time game developer at Classquiz</p>
+
         </div>
       </div>
 
