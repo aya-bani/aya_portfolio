@@ -1,4 +1,4 @@
-import  {interests} from 'C:/Users/Aya Bani/projets/kais_portfolio/src/data.jsx';
+import  {interests} from '../data';
 import Interests_card from "./Interests_card";
 
 const Interests = () => {
