@@ -1,16 +1,16 @@
-import teamMajestyImg from './assets/images/team_majesty.png';
-import dmNovaImg from './assets/images/dmnova.png';
-import classQuizLogoImg from './assets/images/classquizlogo.png';
-import gameDesignImg from './assets/images/game_design.png';
-import gameDevImg from './assets/images/gamedev.png';
-import videoEditingImg from './assets/images/video-editing.png';
+import teamMajestyImg from '../public/assets/images/team_majesty.png';
+import dmNovaImg from '../public/assets/images/dmnova.png';
+import classQuizLogoImg from '../public/assets/images/classquizlogo.png';
+import gameDesignImg from '../public/assets/images/game_design.png';
+import gameDevImg from '../public/assets/images/gamedev.png';
+import videoEditingImg from '../public/assets/images/video-editing.png';
 
-import bubbleshooterVideo from './assets/videos/2048bubbleshooterGameplay.mp4';
-import hammamFighterVideo from './assets/videos/Hammam Fighter.mp4';
-import environmentVideo from './assets/videos/environment.mp4';
-import endlessRunnerVideo from './assets/videos/endless runner course.mp4';
-import aimlabVideo from './assets/videos/aimlab.mp4';
-import bubblegameVideo from './assets/videos/bubblegame.mp4';
+import bubbleshooterVideo from '../public/assets/videos/2048bubbleshooterGameplay.mp4';
+import hammamFighterVideo from '../public/assets/videos/Hammam Fighter.mp4';
+import environmentVideo from '../public/assets/videos/environment.mp4';
+import endlessRunnerVideo from '../public/assets/videos/endless runner course.mp4';
+import aimlabVideo from '../public/assets/videos/aimlab.mp4';
+import bubblegameVideo from '../public/assets/videos/bubblegame.mp4';
 
 export const works = [
     {

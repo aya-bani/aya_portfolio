@@ -18,7 +18,7 @@ export const Navbar = () => {
           </button>
         </a>
       </div>
-      <a href="public\kaiscv.pdf"  target="_blank" rel="noopener noreferrer">
+      <a href="src\pdfs\kaiscv.pdf"  target="_blank" rel="noopener noreferrer">
       <button className="btn bg-white text-black border rounded-[26px] w-24 h-10 text-sm font-bold">
         CV
         </button>

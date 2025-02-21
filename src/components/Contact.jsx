@@ -2,7 +2,7 @@ const Contact = () => {
   return (
     <div className="w-screen h-4/5 flex flex-col items-center justify-center space-y-8 rounded-t-[100px] bg-white p-8">
       <div className="w-32 h-32 flex items-center justify-center bg-[#f2f1f0] rounded-full overflow-hidden">
-        <img src="src/assets/images/contact.png" alt="Contact" className="w-24 h-auto" />
+        <img src="../public/assets/images/contact.png" alt="Contact" className="w-24 h-auto" />
       </div>
 
       <p
