@@ -6,7 +6,7 @@ const ExtraActivities = () => {
       </h1>
 
       <div className="flex flex-col items-center w-full max-w-5xl px-4 space-y-8">
-        <img src="../public/assets/images/logonateg.png" alt="NATEG Logo" className="w-32 h-auto" />
+        <img src="/assets/images/logonateg.png" alt="NATEG Logo" className="w-32 h-auto" />
         <p className="text-center text-[#242424] text-lg sm:text-xl">
           North American Tunisian Engineers Group <br /> (NATEG)
         </p>
