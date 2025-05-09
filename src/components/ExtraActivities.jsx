@@ -29,7 +29,9 @@ const ExtraActivities = () => {
               Unity Trainer <br/> <span className="text-sm text-gray-500">2024</span>
             </h3>
             <ul className="list-disc pl-5 mt-3 text-gray-600 space-y-2">
-              <li>Conducted Unity training sessions with an endless runner game I designed.</li>
+              <li>Conducted Unity training sessions with an endless runner game I designed which helped students grasp unity and c# fundamentals over the course of 2 weeks.</li>
+              <li>trained 15+ club members in OOP through interactive on-site sessions.</li>
+
             </ul>
           </div>
 

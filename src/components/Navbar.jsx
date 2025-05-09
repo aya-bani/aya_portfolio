@@ -1,7 +1,7 @@
 // Navbar.jsx
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'; // Email icon
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'; // LinkedIn icon
+import { faLinkedin, faUpwork } from '@fortawesome/free-brands-svg-icons';
 
 export const Navbar = () => {
   return (
@@ -27,13 +27,20 @@ export const Navbar = () => {
 
       </div>
       <div className="flex items-center">
-        <a href="https://www.linkedin.com/in/kais-khalifa/" className="hidden md:block">LinkedIn</a>
-        <a href="https://www.linkedin.com/in/kais-khalifa/" className="md:hidden"> 
-           <button className="flex items-center justify-center bg-white text-black border rounded-[30px] p-3 ">
-            <FontAwesomeIcon icon={faLinkedin} className="text-lg" /> 
-          </button>   
-        </a>
-      </div>
+        <div className='flex'>
+                <a href="https://www.linkedin.com/in/kais-khalifa/" className="mx-2">
+                  <FontAwesomeIcon icon={faLinkedin} className="text-lg" />
+                </a>
+                <a href="https://www.linkedin.com/in/kais-khalifa/" className="hidden md:block">LinkedIn</a>            
+        </div>
+         <div className='mx-4 flex'>
+                <a href="https://www.upwork.com/freelancers/~01d877e49841e538e3" className="mx-2">
+                  <FontAwesomeIcon icon={faUpwork} className="text-lg" />
+                </a>
+                <a href="https://www.upwork.com/freelancers/~01d877e49841e538e3" className="hidden md:block">Upwork</a>
+        </div>
+          </div>
+
     </nav>
   );
 };

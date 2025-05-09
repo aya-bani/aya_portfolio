@@ -26,13 +26,9 @@ const Contact = () => {
         </a>
         <a href="https://wa.me/21652346664" className="text-gray-600">
           <button className="btn mx-2 bg-white text-black border border-black rounded-[26px] w-24 h-10 text-sm font-bold">
-          Whats Up
+          WhatsApp
           </button> 
         </a>
-
-
-       
-        
       </div>
 
       <div className="mt-6 w-full  border-t border-gray-300 pt-4 flex justify-between p-8 ">
