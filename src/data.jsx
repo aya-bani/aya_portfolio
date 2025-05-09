@@ -28,9 +28,9 @@ export const works = [
   },
   {
     img: SingaporeLogoImg, 
-    title: "Unity Trainer",
+    title: "Unity Tutor",
     duration: "2025",
-    organization: "singapore polytechnic",
+    organization: "Singapore Polytechnic",
     description: "Delivered a 4-day, 16-hour course on Unity basics and VR development to over 10 students from Singapore Polytechnic, achieving positive outcomes as reflected in their performance on the final test assignment",
   },
   {
