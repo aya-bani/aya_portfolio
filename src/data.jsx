@@ -17,6 +17,11 @@ import blurry_bubbleshooter from '/assets/images/blurry_bubbleshooter.png';
 import blurry_endlessrunner from '/assets/images/blurry_endlessrunner.png';
 import blurry_environement from '/assets/images/blurry_environement.png';
 import SingaporeLogoImg from '/assets/images/images-removebg-preview (1).png';
+import vraimlab from '/assets/videos/vr aimlab.mp4';
+import chapterreward from '/assets/videos/chapter reward box.mp4'
+import vrlabimg from '/assets/images/projet9.png'
+import chapterimg from '/assets/images/projet10.png'
+
 
 export const works = [
   {
@@ -126,5 +131,17 @@ export const works = [
       blurryimg :blurry_bubblehead,
       title: 'Bubble Heads',
       description: 'This is the game I developed from scratch in just 24 hours for the Global Game Jam 2025, hosted at EPI Digital School Sousse, and won 2nd place in the competition'
+    },
+    {
+      videoSrc: vraimlab,
+      blurryimg :vrlabimg,
+      title: 'vr aimlab',
+      description: 'I decided to elevate my first project, Aim Lab, by transforming it into an immersive VR experience. This upgraded version became a valuable teaching tool, which I used to introduce Singapore Polytechnic students to the fundamentals of virtual reality using Unity’s XR Interaction Toolkit.'
+    },
+    {
+      videoSrc: chapterreward,
+      blurryimg :chapterimg,
+      title: 'chapter reward box',
+      description: 'I designed this DoTween animation to bring the reward boxes to life when students or players complete a chapter in the ClassQuiz game, adding a satisfying and engaging feedback moment to celebrate their progress.'
     }
   ];

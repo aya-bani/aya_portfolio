@@ -15,10 +15,12 @@ function App() {
         <div className='bg-[#f2f1f0]'>
           <Technologies/>
         </div>
-        <Interests/>
+        <Projects/>
         <WorkExperience/>
         <ExtraActivities/>
-        <Projects/>
+        <Interests/>
+        
+        
         <div className='bg-[#f2f1f0]'>
           <Contact/>
         </div>
