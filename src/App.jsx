@@ -4,27 +4,27 @@ import HeroSection from './components/HeroSection.jsx';
 import Technologies from './components/Technologies.jsx';
 import WorkExperience from './components/WorkExperience.jsx';
 import Contact from './components/Contact.jsx'
-import ExtraActivities from './components/ExtraActivities.jsx';
 import Interests from './components/Interests.jsx';
 import Projects from './components/Projects.jsx';
+import AssociativeExperience from './components/AssociativeExperience.jsx';
+import ScrollToTop from './components/ScrollToTop.jsx';
+
 function App() {
   return (
-    <>
+    <div className="min-h-screen git push origin main
+bg-[#f2f1f0]">
       <Navbar />
-      <HeroSection/>
-        <div className='bg-[#f2f1f0]'>
-          <Technologies/>
-        </div>
+      <main>
+        <HeroSection/>
+        <Technologies/>
         <Projects/>
         <WorkExperience/>
-        <ExtraActivities/>
+        <AssociativeExperience/>
         <Interests/>
-        
-        
-        <div className='bg-[#f2f1f0]'>
-          <Contact/>
-        </div>
-    </>
+        <Contact/>
+      </main>
+      <ScrollToTop />
+    </div>
   );
 }
 

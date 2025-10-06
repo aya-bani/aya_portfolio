@@ -1,147 +1,127 @@
-import teamMajestyImg from '/assets/images/team_majesty.png';
-import dmNovaImg from '/assets/images/dmnova.png';
-import classQuizLogoImg from '/assets/images/classquizlogo.png';
-import gameDesignImg from '/assets/images/game_design.png';
-import gameDevImg from '/assets/images/gamedev.png';
-import videoEditingImg from '/assets/images/video-editing.png';
-import bubbleshooterVideo from '/assets/videos/bubble shooter.mp4';
-import hammamFighterVideo from '/assets/videos/Hammam Fighter.mp4';
-import environmentVideo from '/assets/videos/hdrp environment..mp4';
-import endlessRunnerVideo from '/assets/videos/endless runner course.mp4';
-import aimlabVideo from '/assets/videos/aimlab.mp4';
-import bubblegameVideo from '/assets/videos/bubblegame.mp4';
-import blurry_hamemfighter from '/assets/images/blurry_hamemfighter.jpg';
-import blurry_aimlab from '/assets/images/blurry_aimlab.png';
-import blurry_bubblehead from '/assets/images/blurry_bubblehead.png';
-import blurry_bubbleshooter from '/assets/images/blurry_bubbleshooter.png';
-import blurry_endlessrunner from '/assets/images/blurry_endlessrunner.png';
-import blurry_environement from '/assets/images/blurry_environement.png';
-import SingaporeLogoImg from '/assets/images/images-removebg-preview (1).png';
-import vraimlab from '/assets/videos/vr aimlab.mp4';
-import chapterreward from '/assets/videos/chapter reward box.mp4'
-import vrlabimg from '/assets/images/projet9.png'
-import chapterimg from '/assets/images/projet10.png'
+import ommpLogo from '/assets/images/ommp.png';
+import mitLogo from '/assets/images/mitlogo.png';
+import EnvastImg from '/assets/images/logoenvast.png';
+import deepLearning from '/assets/images/machinelearning.png';
+
+import fiberone from '/assets/images/fiber one.png';
+
+import nategLogo from '/assets/images/logonateg.png';
+import microsoftLogo from '/assets/images/logomic.png';
+import uiux from '../public/assets/images/uiux.png';
+import webDev from '../public/assets/images/webdev.png';
+import skillforge from '../public/assets/images/skillforge.PNG';
+import poseImg from '../public/assets/images/pose.png'
 
 
+
+import issatsomanagement from '../public/assets/images/issastsomanagement.PNG'; 
 export const works = [
   {
-    img: classQuizLogoImg, 
-    title: "Full time Unity Intern",
-    duration: "2024 - present",
-    organization: "Classquiz",
-    description: "Progressed from summer intern to part-time developer, and now full-time Unity intern for my final year project at ClassQuiz—building a multiplayer plugin, optimizing scalable architecture, adding features, fixing bugs, and contributing to release cycles.",
+    img: ommpLogo,
+    title: 'Software Engineer Intern - Conception Phase',
+    duration: 'July 2023 - August 2023',
+    organization: 'Office de la Marine Marchande et des Ports',
+    description: 'Contributed to the conception of web applications by gathering requirements and brainstorming solutions. Collaborated with the development team to outline project specifications and designs. Participated in technical documentation and system architecture planning.',
   },
   {
-    img: SingaporeLogoImg, 
-    title: "Unity Tutor",
-    duration: "2025",
-    organization: "Singapore Polytechnic",
-    description: "Delivered a 4-day, 16-hour course on Unity basics and VR development to over 10 students from Singapore Polytechnic, achieving positive outcomes as reflected in their performance on the final test assignment",
+    img: EnvastImg, 
+    title: 'Junior Web Developer',
+    duration: 'July 2024 - September 2024',
+    organization: 'ENVAST',
+    description: 'Developed responsive web applications using React and Laravel frameworks. Participated in code reviews and agile development processes. Collaborated with cross-functional teams to deliver high-quality software solutions. Implemented frontend components and backend API endpoints.',
   },
   {
-    img: dmNovaImg, 
-    title: "Unity Intern",
-    duration: "2023",
-    organization: "DM-Nova",
-    description: "Developed educational mini-games for kids, collaborated across technical and creative teams, and improved skills in code refactoring and teamwork.",
-  },
-    {
-      img: teamMajestyImg, 
-      title: "Professional Video Editor",
-      duration: "2022-2024",
-      organization: "Majesty E-Sports Team",
-      description: "Edited videos for clients, developed organizational skills, and managed multiple projects using Vegas Pro.",
-    },
-  ];
+    img: mitLogo,
+    title: "Research Intern",
+    duration: "Jul – Sep 2025",
+    organization: "Manipal Institute of Technology, India",
+    description: "Worked on the project 'Modeling, Simulation and Optimization of Industrial Application using Artificial Intelligence Techniques' in the School of Computer Engineering. Applied AI-driven methods for simulation and optimization tasks. Gained hands-on research experience under faculty mentorship. Contributed to academic research papers and technical documentation."
+  }
+];
   
-  export const Extraactivities = [
-    {
-      img: teamMajestyImg, 
-      title1: "Club President",
-      duration1: "2022-2023",
-      organization: "North American Tunisian Engineers Group (NATEG)",
-      description1: "Developed strong skills in team management effective communication, and public speaking as President of a prominent club.Demonstrated ability to coordinate and motivate diverse teams to achieve shared goals.Gained valuable experience in project planning, collaboration, and problem-solving.Organized multiple internal and external events.",
-    },
-    {
-      img: dmNovaImg, 
-      title: "Unity Trainer",
-      duration: "2024",
-      organization: "North American Tunisian Group (NATEG)",
-      description: "Served as a Unity trainer in my club, conducting multiple sessions to teach Unity basics through an endless runner game I designed.",
-    },
-    {
-      img: dmNovaImg, 
-      title: "Unity Trainer",
-      duration: "2024",
-      organization: "North American Tunisian Group (NATEG)",
-      description: "Served as a Unity trainer in my club, conducting multiple sessions to teach Unity basics through an endless runner game I designed.",
-    }
-  ];
+export const associativeExperienceData = [
+  {
+    title: 'Projects Department Leader - Charity and Junior',
+    organization: 'NATEG ISSATSo Club',
+    duration: 'September 2023 - June 2024',
+    description: 'Led a team in organizing charity events, coordinating logistics, and promoting participation to support various community initiatives. Worked collaboratively with members to ensure successful outcomes and foster engagement.',
+    img: nategLogo,
+  },
+  {
+    title: 'Head of Basic Web Department',
+    organization: 'Microsoft ISSATSo Club',
+    duration: 'September 2024 - Present',
+    description: 'Led workshops and training sessions focused on foundational web development skills. Taught HTML, CSS, and JavaScript, developed lesson plans, and provided hands-on guidance to students, fostering a supportive learning environment.',
+    img: microsoftLogo,
+  },
+];
   
   export const interests = [
     {
-      image: gameDesignImg, 
-      title: "Game Design",
-      description: "Creating immersive and engaging game experiences that are intuitive, captivating, and enjoyable for players"
-    },
-    {
-      image: gameDevImg,
-      title: "Game Development",
-      description: "Creating immersive experiences that captivate and engage players."
-    },
-    {
-      image: videoEditingImg, 
-      title: "Video Editing",
-      description: "Crafting compelling stories through the art of video editing."
-    }
-  ];
-  export const projects = [
-    {
-      videoSrc: bubbleshooterVideo,
-      blurryimg: blurry_bubbleshooter,
-      title: '2048 Bubbles Shooter',
-      description: 'Was a technical test I took with Envast, seems simple but has a lot of algorithmic problem solving'
-    },
-    {
-      videoSrc: hammamFighterVideo,
-      blurryimg: blurry_hamemfighter,
-      title: 'Hammam Fighter',
-      description: 'Thats the game I participated with in the global game jam hosted in polytechnique sousse,started from scratch and developed in 48 hours'
-    },
-    {
-      videoSrc: environmentVideo,
-      blurryimg: blurry_environement,
-      title: 'HDRP Environment',
-      description: 'Its an unfinished project, in fact my most recent one, the main goal is to experiment with creating a nice environment using high quality materials and textures, I aim to transform it into a fishing or survival game.'
-    },
-    {
-      videoSrc: endlessRunnerVideo,
-      blurryimg: blurry_endlessrunner,
-      title: 'Endless Runner Course',
-      description: 'Its a game inspired from an old course I studied, its main purpose is to teach my friends and club members the basics of unity in a 6 session workshop to introduce them to game devand the unity engine'
-    },
-    {
-      videoSrc: aimlabVideo,
-      blurryimg: blurry_aimlab,
-      title: 'Aim Lab',
-      description: 'That project was the first on I started from scratch without following any tutorials'
-    },
-    {
-      videoSrc: bubblegameVideo,
-      blurryimg :blurry_bubblehead,
-      title: 'Bubble Heads',
-      description: 'This is the game I developed from scratch in just 24 hours for the Global Game Jam 2025, hosted at EPI Digital School Sousse, and won 2nd place in the competition'
-    },
-    {
-      videoSrc: vraimlab,
-      blurryimg :vrlabimg,
-      title: 'vr aimlab',
-      description: 'I decided to elevate my first project, Aim Lab, by transforming it into an immersive VR experience. This upgraded version became a valuable teaching tool, which I used to introduce Singapore Polytechnic students to the fundamentals of virtual reality using Unity’s XR Interaction Toolkit.'
-    },
-    {
-      videoSrc: chapterreward,
-      blurryimg :chapterimg,
-      title: 'chapter reward box',
-      description: 'I designed this DoTween animation to bring the reward boxes to life when students or players complete a chapter in the ClassQuiz game, adding a satisfying and engaging feedback moment to celebrate their progress.'
-    }
-  ];
+    image: uiux, 
+    title: "UI/UX design",
+    description: "Designing intuitive and visually appealing user interfaces that enhance user experience, ensuring seamless navigation, accessibility, and engagement."
+  },
+  {
+    image: webDev,
+    title: "Web Development",
+    description: "Building responsive, high-performance websites with clean code, seamless functionality, and an intuitive user experience."
+  },
+  {
+    image: deepLearning,
+    title: "Machine Learning",
+    description: "Building efficient and scalable machine learning models with clean code, seamless integration, and insightful data-driven solutions."
+  }
+]
+
+// New project data structure matching the design
+export const ProjectData = [
+  {
+    title: 'Skill Forge',
+    description: 'A full-stack web app using React and Laravel, featuring user authentication, course management, and dynamic theming.',
+    defaultImg: skillforge, 
+    hoverImg: skillforge,  
+    github:'https://github.com/aya-bani/SkillForge',
+    technologies: ['React', 'Laravel', 'PHP', 'MySQL'],
+    demo: '#' // Replace with actual demo URL
+  },
+ {
+  title: 'Fiber One Asia',
+  description: 'A responsive and interactive website for Fiber One Asia, developed using React and Tailwind CSS. Implemented dynamic components, seamless navigation, and modern UI design to enhance user experience and accessibility.',
+  defaultImg: fiberone,
+  hoverImg: fiberone,
+  github: 'https://github.com/aya-bani/fiber-one-asia-prototype',
+  technologies: ['React', 'Tailwind CSS', 'JavaScript'],
+  demo: '#' // Replace with actual demo URL
+},
+
+  {
+    title: 'Issatso Management',
+    description: 'ISSATSoManagement is a web application for managing academic and administrative tasks, designed using React and Tailwindcss while using Spring Boot for the backend.',
+    defaultImg: issatsomanagement, 
+    hoverImg: issatsomanagement,   
+    github:'https://github.com/aya-bani/issatsomanagement_fullapp',
+    technologies: ['React', 'Spring Boot', 'Tailwind CSS', 'Java'],
+    demo: '#' // Replace with actual demo URL
+  },
+  {
+  title: 'Pose Estimation Project',
+  description: 'A real-time human pose estimation application using OpenCV and Mediapipe. Captures video input, detects and tracks key body landmarks, calculates FPS, and visualizes pose connections for interactive analysis and performance tracking.',
+  defaultImg: poseImg,      // replace with your imported image variable or screenshot
+  hoverImg: poseImg,        // optional: can be the same or another hover effect image
+  github: 'https://github.com/aya-bani/PoseEstimationProject', // replace with actual repo link
+  technologies: ['Python', 'OpenCV', 'Mediapipe'],
+  demo: '#' // Replace with live demo or video link if available
+} ,
+{
+  title: 'MIT Research Internship',
+  description: "Worked on the project 'Modeling, Simulation and Optimization of Industrial Application using Artificial Intelligence Techniques' at Manipal Institute of Technology, India.",
+  defaultImg: mitLogo,       // replace with your imported image variable or screenshot
+  hoverImg: mitLogo,         // optional: can be the same or another hover effect image
+  github: 'https://github.com/aya-bani/sgmd-mit-all-versions',
+  technologies: ['Python'],
+  demo: '#' // Replace with live demo or video link if available
+}
+
+
+];

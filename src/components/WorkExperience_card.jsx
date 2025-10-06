@@ -1,26 +1,41 @@
-const WorkExperience_card = (props) => {
-    return (
-      <div className="flex flex-col sm:flex-row items-center justify-center  p-4 m-2 rounded-md shadow-md h-auto sm:h-auto  w-full max-w-sm sm:max-w-xl bg-white">
-        
-        <div className="w-48 h-54 mb-4 sm:mr-4 sm:mb-0 flex items-center justify-center overflow-hidden">
-        <img 
-            src={props.img} 
-            alt="Work experience" 
-            className="w-24 h-auto" 
-        />
-        </div>
-        <div className="text-center sm:text-left">
-          <h3 className="text-lg sm:text-xl font-semibold font-preahvihear break-words text-[#555555]">
-            {props.title}
-            <br/>
-            <span className="text-sm text-gray-500">{props.duration}</span>
-          </h3>
-          <p className="text-sm sm:text-base font-bold  font-preahvihear break-words">{props.organization}</p>
-          <p className="mt-2 text-xs sm:text-sm  font-preahvihear break-words">{props.description}</p>
-        </div>
+const WorkExperience_card = ({ title, organization, duration, description, img }) => {
+  // Split description into bullet points
+  const bulletPoints = description.split('.').filter(point => point.trim().length > 0);
+
+  return (
+    <div className="bg-white rounded-xl shadow-lg p-6 card-hover w-full flex">
+      {/* Logo container: full height of the card */}
+      <div className="flex-shrink-0 w-24 flex items-center justify-center">
+        <img src={img} alt={organization} className="max-w-full max-h-full object-contain" />
       </div>
-    );
-  };
-  
-  export default WorkExperience_card;
-  
+
+      {/* Content */}
+      <div className="flex-1 ml-6">
+        {/* Title */}
+        <h3 className="text-xl font-bold text-gray-800 mb-2">
+          {title}
+        </h3>
+
+        {/* Organization */}
+        <p className="text-lg font-semibold text-gray-700 mb-2">
+          {organization}
+        </p>
+
+        {/* Duration */}
+        <p className="text-gray-600 font-medium mb-4">{duration}</p>
+
+        {/* Description as bullet points */}
+        <ul className="space-y-2">
+          {bulletPoints.map((point, index) => (
+            <li key={index} className="flex items-start gap-2 text-gray-600">
+              <span className="text-gray-400 mt-1.5">•</span>
+              <span className="text-sm leading-relaxed">{point.trim()}.</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+export default WorkExperience_card;

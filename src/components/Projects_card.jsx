@@ -73,9 +73,9 @@ const Projects_card = ({ videoSrc, title, description ,blurryimg }) => {
     }, [volume]);
 
     return (
-        <div className="w-full max-w-[640px] mx-auto bg-white shadow-md rounded-lg p-4">
+        <div className="w-full bg-white shadow-lg rounded-xl overflow-hidden card-hover">
             {/* Video */}
-                <div className="w-full max-w-[640px] h-[360px] rounded-lg mb-2 relative overflow-hidden">
+            <div className="w-full h-48 sm:h-64 lg:h-80 relative overflow-hidden">
                 <div
                     className="absolute inset-0 bg-cover bg-center"
                     style={{
@@ -93,10 +93,8 @@ const Projects_card = ({ videoSrc, title, description ,blurryimg }) => {
                 />
             </div>
 
-
-
-            
-            <div className="flex flex-col space-y-2 bg-gray-100 rounded p-3">
+            {/* Video Controls */}
+            <div className="p-3 sm:p-4 bg-gray-50">
                 <input
                     type="range"
                     min="0"
@@ -104,18 +102,18 @@ const Projects_card = ({ videoSrc, title, description ,blurryimg }) => {
                     step="0.1"
                     value={currentTime}
                     onChange={handleSeek}
-                    className="w-full cursor-pointer accent-[#555]"
+                    className="w-full cursor-pointer accent-gray-600 mb-3"
                 />
-                <div className="flex items-center justify-between text-sm text-gray-700">
+                <div className="flex flex-col sm:flex-row items-center justify-between gap-2 text-sm text-gray-700">
                     <button
                         onClick={togglePlayPause}
-                        className="px-3 py-1 rounded bg-[#555] text-white hover:bg-[#444]"
+                        className="px-4 py-2 rounded-lg bg-gray-800 text-white hover:bg-gray-700 transition-colors font-medium"
                     >
                         {isPlaying ? 'Pause' : 'Play'}
                     </button>
 
                     <div className="flex items-center space-x-2">
-                        <span>{formatTime(currentTime)} / {formatTime(duration)}</span>
+                        <span className="text-xs sm:text-sm">{formatTime(currentTime)} / {formatTime(duration)}</span>
                         <label htmlFor="volume" className="text-xs">Vol</label>
                         <input
                             id="volume"
@@ -125,22 +123,23 @@ const Projects_card = ({ videoSrc, title, description ,blurryimg }) => {
                             step="0.05"
                             value={volume}
                             onChange={handleVolumeChange}
-                            className="w-20 cursor-pointer accent-[#555]"
+                            className="w-16 sm:w-20 cursor-pointer accent-gray-600"
                         />
                     </div>
 
                     <button
                         onClick={handleFullscreen}
-                        className="px-3 py-1 rounded bg-[#555] text-white hover:bg-[#444]"
+                        className="px-4 py-2 rounded-lg bg-gray-800 text-white hover:bg-gray-700 transition-colors font-medium"
                     >
                         Fullscreen
                     </button>
                 </div>
             </div>
 
-            <div className="text-center mt-3">
-                <h3 className="text-lg font-semibold text-[#555555] mb-1">{title}</h3>
-                <p className="text-gray-600">{description}</p>
+            {/* Project Info */}
+            <div className="p-4 sm:p-6">
+                <h3 className="text-xl sm:text-2xl font-bold text-gray-800 mb-2">{title}</h3>
+                <p className="text-gray-600 leading-relaxed">{description}</p>
             </div>
         </div>
     );
