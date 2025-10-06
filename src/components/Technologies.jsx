@@ -26,7 +26,7 @@ const Technologies = () => {
                 key={index} 
                 className="flex flex-col items-center group hover:scale-110 transition-transform duration-300"
               >
-                <div className="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 bg-gray-100 rounded-lg p-2 sm:p-3 flex items-center justify-center group-hover:bg-gray-200 transition-colors">
+                <div className="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 bg-[#f2f1f0] rounded-lg p-2 sm:p-3 flex items-center justify-center group-hover:bg-gray-200 transition-colors">
                   <img 
                     src={tech.src} 
                     alt={tech.alt} 

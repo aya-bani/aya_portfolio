@@ -4,7 +4,7 @@ import WorkExperience_card from "./WorkExperience_card.jsx";
 
 const WorkExperience = () => {
   return (
-    <div className="w-full bg-gray-100 py-16 sm:py-20">
+    <div className="w-full bg-[#f2f1f0] py-16 sm:py-20">
       <div className="max-w-4xl mx-auto px-4 sm:px-8">
         {/* Header */}
         <div className="text-center mb-12">

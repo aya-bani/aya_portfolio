@@ -11,7 +11,7 @@ import uiux from '../public/assets/images/uiux.png';
 import webDev from '../public/assets/images/webdev.png';
 import skillforge from '../public/assets/images/skillforge.PNG';
 import poseImg from '../public/assets/images/pose.png'
-
+import mit from "../public/assets/images/mit.png"
 
 
 import issatsomanagement from '../public/assets/images/issastsomanagement.PNG'; 
@@ -116,8 +116,8 @@ export const ProjectData = [
 {
   title: 'MIT Research Internship',
   description: "Worked on the project 'Modeling, Simulation and Optimization of Industrial Application using Artificial Intelligence Techniques' at Manipal Institute of Technology, India.",
-  defaultImg: mitLogo,       // replace with your imported image variable or screenshot
-  hoverImg: mitLogo,         // optional: can be the same or another hover effect image
+  defaultImg: mit,       // replace with your imported image variable or screenshot
+  hoverImg: mit,         // optional: can be the same or another hover effect image
   github: 'https://github.com/aya-bani/sgmd-mit-all-versions',
   technologies: ['Python'],
   demo: '#' // Replace with live demo or video link if available
