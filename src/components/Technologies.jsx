@@ -5,13 +5,16 @@ const Technologies = () => {
       { src: "/assets/images/html.png", alt: "HTML", name: "HTML" },
       { src: "/assets/images/react.png", alt: "React", name: "React" },
       { src: "/assets/images/springboot.png", alt: "Spring Boot", name: "Spring Boot" },
-      { src: "/assets/images/figma.png", alt: "Figma", name: "Figma" },
+      // { src: "/assets/images/figma.png", alt: "Figma", name: "Figma" },
       { src: "/assets/images/tailwindcss.png", alt: "Tailwind CSS", name: "Tailwind CSS" },
       { src: "/assets/images/bootstrap.png", alt: "Bootstrap", name: "Bootstrap" },
+      { src: "/assets/images/python.png", alt: "Python", name: "Bootstrap" },
+
+
     ];
 
     return (
-      <div className="w-full py-12 sm:py-16 bg-white rounded-b-[50px] sm:rounded-b-[100px]">
+      <div className="w-full py-12 sm:py-16 bg-white ">
         <div className="max-w-7xl mx-auto px-4 sm:px-8">
           <h2 className="text-3xl sm:text-4xl font-bold text-center text-gray-800 mb-8 sm:mb-12">
             Technologies I Work With
