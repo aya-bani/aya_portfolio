@@ -23,7 +23,7 @@ const HeroSection = () => {
             
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href="/assets/pdfs/Kais-Khalifa-resume-may2025.pdf" target="_blank" rel="noopener noreferrer">
+              <a href="/assets/pdfs/Bani-Aya.pdf" target="_blank" rel="noopener noreferrer">
                 <button className="bg-black text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-800 transition-colors">
                   Download Resume
                 </button>
