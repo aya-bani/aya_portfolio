@@ -33,7 +33,7 @@ export const works = [
   {
     img: mitLogo,
     title: "Research Intern",
-    duration: "Jul – Sep 2025",
+    duration: "July 2025 – September 2025",
     organization: "Manipal Institute of Technology, India",
     description: "Worked on the project 'Modeling, Simulation and Optimization of Industrial Application using Artificial Intelligence Techniques' in the School of Computer Engineering. Applied AI-driven methods for simulation and optimization tasks. Gained hands-on research experience under faculty mentorship. Contributed to academic research papers and technical documentation."
   }
