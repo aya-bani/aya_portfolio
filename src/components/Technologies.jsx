@@ -8,7 +8,7 @@ const Technologies = () => {
       // { src: "/assets/images/figma.png", alt: "Figma", name: "Figma" },
       { src: "/assets/images/tailwindcss.png", alt: "Tailwind CSS", name: "Tailwind CSS" },
       { src: "/assets/images/bootstrap.png", alt: "Bootstrap", name: "Bootstrap" },
-      { src: "/assets/images/python.png", alt: "Python", name: "Bootstrap" },
+      { src: "/assets/images/python.png", alt: "Python", name: "Python" },
 
 
     ];
