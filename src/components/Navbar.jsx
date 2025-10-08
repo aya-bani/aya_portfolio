@@ -17,7 +17,7 @@ export const Navbar = () => {
               <FontAwesomeIcon icon={faEnvelope} />
               <span className="text-sm font-bold">baniaya.it@gmail.com</span>
             </a>
-            <a href="public\assets\pdfs\Bani-Aya.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="/assets/pdfs/Bani-Aya.pdf" target="_blank" rel="noopener noreferrer">
               <button className="btn bg-white text-black border rounded-[26px] w-24 h-10 text-sm font-bold hover:bg-gray-100 transition-colors">
                 Resume
               </button>

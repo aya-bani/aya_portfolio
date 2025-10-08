@@ -18,7 +18,7 @@ const HeroSection = () => {
               Bani Aya
             </h1>
             <p className="text-lg sm:text-xl text-gray-600 mb-6 max-w-md">
-              Currently I'm 3rd year software engineering student
+            Currently in the third year of a Software Engineering program
             </p>
             
             {/* CTA Buttons */}
